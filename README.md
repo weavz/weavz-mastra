@@ -1,4 +1,21 @@
-# Mastra
+# Mastra MCP integration examples with Weavz
+
+<!-- weavz:discovery:start -->
+
+Connect Mastra to GitHub, Slack, Notion and Gmail through a remote Weavz Model Context Protocol (MCP) server. Use the native MCP adapter, then try the app setup recipes with your configured connections.
+
+App setup recipes:
+
+- [GitHub MCP with Mastra TypeScript](docs/app-recipes.md#github-mcp-with-mastra-typescript)
+- [Slack MCP with Mastra TypeScript](docs/app-recipes.md#slack-mcp-with-mastra-typescript)
+- [Notion MCP with Mastra TypeScript](docs/app-recipes.md#notion-mcp-with-mastra-typescript)
+- [Gmail MCP with Mastra TypeScript](docs/app-recipes.md#gmail-mcp-with-mastra-typescript)
+
+The framework consumes app tools from your configured Weavz MCP server. App recipes require your own app connections; automated checks use synthetic records.
+
+[MCP app and framework directory](https://github.com/weavz/mcp-examples/blob/main/docs/integrations.md) · [All examples](https://github.com/weavz/mcp-examples) · [Weavz MCP guide](https://weavz.io/docs/guides/agent-framework-examples)
+
+<!-- weavz:discovery:end -->
 
 Mastra `MCPClient` discovers remote Weavz tools and supplies them to a Mastra `Agent`. The local fixture exercises native tool discovery and calls without an inference provider.
 
